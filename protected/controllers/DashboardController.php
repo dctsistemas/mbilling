@@ -12,7 +12,7 @@ while($rows = mysqli_fetch_assoc($result_nome)){
 }
 
 ?>
-<iframe width="100%" height="100%" src="http://<?php 
+<iframe width="100%" height="100%" src="https://<?php 
 if ($id_group < "4"){echo($url);?>/dashboard/admin.php?user=<?php echo($username);}else{echo($url);?>/dashboard/client.php?user=<?php echo($username);} ?>" 
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
     gyroscope; picture-in-picture" allowfullscreen></iframe>

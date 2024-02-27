@@ -2,7 +2,7 @@
 	include_once("../config/config.php");
 	include_once("magnusBillingAPI.php");
 	$magnusBilling             = new MagnusBilling('21232f297a57a5a743894a0e4a801fc2', '21232f297a57a5a743894a0e4a801fc3');
-    $magnusBilling->public_url = "http://sip.skynetfibra.net.br"; // Your MagnusBilling URL
+    $magnusBilling->public_url = "https://sip.skynetfibra.net.br"; // Your MagnusBilling URL
 
 	function magnus ($acao,$dados){
 		$magnus['acao'] = $acao;		

@@ -3,7 +3,7 @@
 
 - yum install -y nano wget git
 - cd /usr/src
-- git clone https://github.com/skynetfibravoip/mbilling.git
+- git clone https://github.com/skynetfibragithub/mbilling.git
 
 - mv mbilling/install.sh /root/install.sh
 - cd 
